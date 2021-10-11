@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="name"
+            type="String" />
+
+        <variable
+            name="Title"
+            type="String" />
+
+        <variable
+            name="airData"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:includeFontPadding="false"
+            android:text="@{Title}"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/colorTextIcon"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/medium"
+            android:includeFontPadding="false"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:text="@{name}"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/colorTextIcon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:fontFamily="@font/regular"
+            android:includeFontPadding="false"
+            android:text="@{airData}"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/colorTextIcon"/>
+    </LinearLayout>
+</layout>

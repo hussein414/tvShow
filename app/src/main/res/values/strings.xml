@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tv Show</string>
+    <string name="tv_shows_i_most_popular">TV Shows i most popular</string>
+    <string name="read_more">ReadMore</string>
+    <string name="read_less">ReadLess</string>
+    <string name="u2023">u2023</string>
+    <string name="website">Website</string>
+    <string name="episode">Episode</string>
+    <string name="watchlist">watchList</string>
+    <string name="search">Search</string>
+    <string name="search_tv_shows">Search Tv Shows</string>
+</resources>
